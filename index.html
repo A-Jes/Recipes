@@ -1,0 +1,100 @@
+<html>
+    <header>
+   	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Recipes</title>
+    </header>
+    <body>
+        <nav class="navbar ">
+            <div class="container-fluid">
+                <div class="logo">
+                <img src="logo.jpg" class="img">
+                </div>
+              <a class="navbar-brand fs-1"> Instant Search to 2 Million Global Recipes </a>
+              <a class="navbar-brand fs-4">About </a>
+            </div>
+          </nav>
+
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="slid.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="slid1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="slid2.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    <div class="container py-5">
+        <div class="mb-5">
+            <div class="row g-3">
+                <div class="col-md-10">
+                    <input type="text" class="form-control query" placeholder="I Want to make...">
+                </div>
+                <div class="col-md-2">
+                    <button class="btn1 btn-primary w-100 search-btn">Search</button>
+                </div>
+            </div>
+        </div>
+        <div class="row recipe">
+            
+        </div>
+    </div>
+
+
+<div class="modal fade" id="product-details" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="carouselExample" class="carousel slide">
+                                <div class="carousel-inner slider">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 other-info">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<footer>
+            <div class="div foot py-5">
+                <p href="" class="fs fs-4">FIND MORE RECIPES</p>
+                <div class="div">
+                    <input type="text" class="Find query1" placeholder="I'm Craving...">
+                </div>
+                <div class="div">
+                    <button class="btn1 btn-primary search-btn1">Search</button>
+                </div>
+</footer>
+
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>

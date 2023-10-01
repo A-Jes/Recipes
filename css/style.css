@@ -1,0 +1,99 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Tektur:wght@500&display=swap');
+
+.img{
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+}
+.navbar{
+    background: #ED7014;
+}
+.navbar-brand{
+    color: white;
+    font-family: Rubik Iso;
+}
+
+.logo{
+    padding-left: 50px;
+}
+
+.input{
+    text-align: center;
+}
+.other{
+    text-align: center;
+}
+.div{
+/*    align-items: center;*/
+    text-align: center;
+    padding-top: 50px;
+}
+.card{
+    background: #ED7014;
+    width: 300px;
+}
+.card-title{
+    color: white;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.me-2{
+    width: 400px;
+}
+.find{
+    border-radius: 10px;
+    border: solid 2px grey;
+    width: 600px;
+    height: 50px;
+    padding: 10px;
+}
+.btn1{
+    background: #ED7014;
+    color: white;
+    width: 300px;
+    border-radius: 10px;
+    height: 50px;
+    border: 0px;
+}
+.btn{
+    background-color: white;
+    color: #000000;
+}
+.query{
+    height: 50px;
+    border: solid 2px darkgray;
+}
+
+.fs{
+    font-family: Orbitron;
+    font-weight: bold;
+}
+.div{
+    text-align: center;
+}
+.foot{
+    background: lightgray;
+    height: 310px;
+    padding: 50px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+.css{
+        text-align: center;
+    }
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
+    }
+}
